@@ -4,6 +4,7 @@ class News {
   String? status;
   int? totalResults;
   List<Article>? articles;
+  bool? isDeleted;
 
   News({this.status, this.totalResults, this.articles});
 
